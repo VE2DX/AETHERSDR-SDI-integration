@@ -49,9 +49,9 @@ The present approach by **FlexRadio** in the latest version, as of this document
 - does not address the specific requirements for multiband antennas.
 - It lacks flexibility.
 
-#### 3.1.1- The _SOURCE_ is always output oriented, this is ok and gives the user some flexibility, but in SO2R you need to be able to manage a group of output. Thus offering an SO2R mode in the top of this window, moving the Source pull down in that same upper area and SO2R mode again in that same area would address this concern (item 1 in the image).
+#### 3.1.1- (1) The _SOURCE_ is always output-oriented; this is ok and gives the user some flexibility, but in SO2R, you need to be able to manage a group of outputs. Thus, offering an SO2R mode at the top of this window, moving the Source pull-down in that same upper area, and SO2R mode again in that same area would address this concern.
 
-#### 3.1.2- The band select or frequency range selection is limited to ONE band or frequency range; this should be replaced by a pull-down where, in the band mode, it would list all the possible bands. And in frequency range mode this pull down would look like the following image.
+#### 3.1.2- (2) The band select or frequency range selection is limited to ONE band or frequency range; this should be replaced by a pull-down where, in the band mode, it would list all the possible bands. And in frequency range mode, this pull-down would look like the following image.
 
 <img width="472" height="381" alt="image" src="https://github.com/user-attachments/assets/0317f9a2-b919-44ce-8e38-092fe5832ca1" />
 
