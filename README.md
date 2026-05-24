@@ -2,7 +2,12 @@
 
 # Version
 
-00.01.05 May 24th, 2026 by Richard VE2DX
+00.01.05 May 24th, 2026 by Richard VE2DX 
+
+References; 
+AETHERSDR Vers.: 26.5.2.1, Mai 2026
+FlexRadio SmartSDR Vers.: 4.2.18, Mai 2026
+"USB Cables Interface Guide for the FLEX-6000" Version 1.6.1, 26 July 2019
 
 ## Introduction
 
