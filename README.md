@@ -2,7 +2,7 @@
 
 # Version
 
-00.01.10 May 24th, 2026 by Richard VE2DX 
+00.01.15 May 24th, 2026 by Richard VE2DX 
 
 References; 
 AETHERSDR Vers.: 26.5.2.1, Mai 2026
@@ -20,7 +20,9 @@ A Canadian-based Ham Radio Electronics company founded in 2020 and closed in lat
 
 ## 2- Context
 
-This project will be submitted to the **AETHERSDR team** of the USB relay interfacing as a possible advanced evolution, and added SO2R support
+This project will be submitted to the **AETHERSDR team** of the USB relay interfacing as a possible advanced evolution, and added SO2R support.
+
+If FlexRadio is interrested in the principles stated in this document they can contact the author for authorisation to implementation in their hardwares, firmware and/or softwares.
 
 While the **FlexRadio** integration of the 8-bit USB Relay PCB offers a great, low-cost, simple interface, the USB-based relay integration for antenna and other automated control, it lacks some badly needed improvements. Among those;
 
