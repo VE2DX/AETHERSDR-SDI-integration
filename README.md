@@ -17,9 +17,11 @@ This project will be submitted to the AETHERSDR team as a possible evolution of 
 
 # 2- Context
 
-While the FlexRadio integration offers a great, low-cost, simple interface, the USB-based relay integration is lacking some badly needed improvements. Among those;
+This project will be submitted to the AETHERSDR team of the USB relay interfacing as a possible advanced evolution, and added SO2R support
 
-- The possibility to assign multiple bands or frequency ranges to a single relay output to address multiband antennas like a common 80/40 dipole or the very common tribander yagy.
+While the FlexRadio integration of the 8-bit USB Relay PCB offers a great, low-cost, simple interface, the USB-based relay integration for antenna and other automated control, it lacks some badly needed improvements. Among those;
+
+- The possibility to assign multiple bands or frequency ranges to a single relay output to address multiband antennas like a common 80/40 dipole or the very common tribander yagi.
 
 - A better SO2R integration.
 
