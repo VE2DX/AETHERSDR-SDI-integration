@@ -83,7 +83,7 @@ At present the **AETHERSDR** implementation of the 8-BIT USB Relay PCB is at its
 
 **Todo**: 
 - Add to the **Cable Setting** area a new pulldown menu titled **MODE**.
-- This should trigger a pulldown menu with the following options; Manual, SO2R.
+- This should trigger a pulldown menu with the following options; **Manual**, **SO2R**.
 - By default the Manual should be shown.
 - Once changed the new selection should always be shown and remembered.
 
@@ -100,20 +100,32 @@ At present the **AETHERSDR** implementation of the 8-BIT USB Relay PCB is at its
 **Todo**: 
 
 - Add to the **Cable Setting** area a new pulldown menu titled **MODE**.
-- This should trigger a pulldown menu with the following options; Manual, SO2R.
-- By default the MANUAL should be shown.
+- This should trigger a pulldown menu with the following options; **Manual**, **SO2R**.
+- By default the **MANUAL** should be shown.
 - Once changed the new selection should always be shown and remembered.
 
 #### 3.2.7- Add to the _Cable Setting_ area a new pulldown menu titled _SO2R Mode_, this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R. It should trigger a pulldown menu with the following options; Antenna, Band Pass Filter (BPF)
 
 **Todo**: 
 - Add to the **Cable Setting** area a new pulldown menu titled **SO2R MODE**.
-- This should this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R.
+- This should this should ONLY show up if the **MODE** option fro, 3.2.5 is set to **SO2R**.
 - It should trigger a pulldown menu with the following options; Antenna, Band Pass Filter (BPF).
 - By default the ANTENNA should be shown.
 - Once changed the new selection should always be shown and remembered.
 
-#### 3.2.7- Add to the _Cable Setting_ area a new pulldown menu titled _source_, this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R. It should trigger a pulldown menu with the following options; Antenna, Band Pass Filter (BPF)
+#### 3.2.7- Add to the _Cable Setting_ area a new pulldown menu titled _source_, this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R. It should trigger a pulldown menu with the following options; (See List below)
 
 **Todo**: 
-- 
+- Add to the **Cable Setting** area a new pulldown menu titled **SOURCE**
+- this should ONLY show up if the **MODE** option fro, 3.2.5 is set to **SO2R**
+- It should trigger a pulldown menu with the following options;
+    The sources are:
+  - TX Slice; The cable will report the frequency of the slice receiver that holds the Transmit Indicator.
+  - Active Slice; The cable will report the frequency of the active slice receiver (the slice that has the yellow cursor).
+  - TX Panadapter - The cable will report the center frequency of the panadapter that contains the transmit slice.
+  - Specific Slice - The cable will report the frequency of the specified slice (A, B, C, D, E, F, G, H).
+  - RX Antenna - The cable will report the frequency of the specified receive antenna (ANT1, ANT2, XVTR, RXA, RXB).
+Note: If multiple slices are on the same RX Antenna then the frequency of the last tuned slice will be reported.
+
+  - TX Antenna - The cable will report the frequency of the specified transmit antenna (ANT1,ANT2, XVTR). Note: This frequency is only changed/reported when the TX Slice is connected to the specified antenna.
+
