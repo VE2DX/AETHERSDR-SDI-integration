@@ -138,4 +138,12 @@ Change the sources to match the **FlexRadio** reference:
 Note: If multiple slices are on the same RX Antenna, then the frequency of the last tuned slice will be reported.
   - **TX Antenna:** The cable will report the frequency of the specified transmit antenna (ANT1, ANT2, XVTR). Note: This frequency is only changed/reported when the TX Slice is connected to the specified antenna.
 
-#### 3.2.10- The present _AETHERSDR_ version does not support PTT (See (3) on Flexradio image 3.1). This is important in some setups. As per FlexRadio reference, "When set, the wire will become active only when the radio is in transmit, and the source frequency is within the output band/frequency range. Individual wire PTT and TX Delays can be set and will be used by the radio when keyed."
+#### 3.2.10- The present _AETHERSDR_ version does not support PTT functions in the USB relay PCB (See (3) on Flexradio image 3.1). This is important for some setups. 
+
+As per FlexRadio reference, "When set, the wire will become active only when the radio is in transmit, and the source frequency is within the output band/frequency range. Individual wire PTT and TX Delays can be set and will be used by the radio when keyed."
+
+Like with the **Source**, this option should be adapted to the Manual or SO2R operations, while in manual mode, this PTT setting should appear as the last column to the right side and be output-oriented; while in SO2R mode, this column should be removed and the PTT Option should be moved to the **Cable Setting** area as a single setting for the group.  
+
+**Todo**: 
+if the _MODE_ option fro, 3.2.5 is set to SO2R.
+  - **TX Slice:**
