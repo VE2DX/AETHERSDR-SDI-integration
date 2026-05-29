@@ -146,4 +146,15 @@ Like with the **Source**, this option should be adapted to the Manual or SO2R op
 
 **Todo**: 
 if the _MODE_ option fro, 3.2.5 is set to SO2R.
-  - **TX Slice:**
+  
+  - Add to the **Cable Setting** area a new pulldown menu titled **SO2R PTT**
+    - this should ONLY show up if the **MODE** option fro, 3.2.5 is set to **SO2R**
+    - When the SO2R PTT is clicked on, a pull-down should show Manual, Grouped.
+    - When the **SO2R PTT** is in manual:
+      - Add a new column to the right side of the existing ones with the TX options.
+      - For each output, these are controlled separately.
+<img width="199" height="508" alt="image" src="https://github.com/user-attachments/assets/b301b560-473a-4755-8308-1ebc970130d0" />
+
+    - When the **SO2R PTT** is in Grouped:
+      - TAdd a new column to the right side of the existing ones with the TX options.
+      - For each output, these are controlled separately.  
